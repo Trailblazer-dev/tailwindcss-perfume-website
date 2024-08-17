@@ -15,3 +15,9 @@ body {
 section {
     @apply py-16 md:py-28;
 }
+.nav-link{
+    @apply text-lg font-bold hover:text-titleColor duration-300;
+}
+.active{
+    @apply text-titleColor;
+}
