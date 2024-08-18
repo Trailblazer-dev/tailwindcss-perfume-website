@@ -684,6 +684,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .flex{
   display: flex;
 }
@@ -768,6 +776,10 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -1190,6 +1202,10 @@ section{
     margin-bottom: 7rem;
   }
 
+  .md\:mt-5{
+    margin-top: 1.25rem;
+  }
+
   .md\:hidden{
     display: none;
   }
@@ -1293,6 +1309,10 @@ section{
     max-width: 100%;
   }
 
+  .xl\:items-center{
+    align-items: center;
+  }
+
   .xl\:px-12{
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1305,5 +1325,10 @@ section{
 
   .xl\:text-\[65px\]{
     font-size: 65px;
+  }
+
+  .xl\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
